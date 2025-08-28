@@ -91,4 +91,4 @@ ONLY VISIT HERE ONCE YOU ARE COMFORTABLE WITH THE ABOVE. NOT WHEN YOU HAVE IT ME
 9. Style your app.
 
 # THE END
-### If you made it here great job. But this doesn't necessarily mean your journey is over. Go `SCORCHED EARTH` one more time and try it again. `REPETITION` is the key to success. Creating that connection from your brain to your fingers. Feel free to hold onto this repo for the rest of time and occasionally see if you can still execute the steps as fast as you used to, or even more likely faster than last time.
+### If you made it here great job. But this doesn't necessarily mean your journey is over. Go `SCORCHED EARTH` one more time and try it again all the way back at [WHERE TO START](#where-to-start). `REPETITION` is the key to success. Creating that connection from your brain to your fingers. Feel free to hold onto this repo for the rest of time and occasionally see if you can still execute the steps as fast as you used to, or even more likely faster than last time.
