@@ -113,9 +113,11 @@ Congratulations you did it. You created a full stack application, you should be 
 # Stretch Goals
 ONLY VISIT HERE ONCE YOU ARE COMFORTABLE WITH THE ABOVE. NOT WHEN YOU HAVE IT MEMORIZED BUT WHEN YOU ARE COMFORTABLE ENOUGH TO SPEAK TO EACH STEP ABOVE. AGAIN NOT ONCE YOU HAVE MEMORIZED IT ALL, BECAUSE DON'T
 
-1. Return to your Back-End and create the remaining CRUD operations. Suggested order (not required): POST → DELETE → UPDATE.  
+1. Return to your Back-End and create the remaining CRUD operations.   
+   - Suggested order (not required): POST → DELETE → UPDATE.  
    - Use Postman to execute these processes for now. You will use your Front-End to do it later. 
-2. In your VITE app create a form that can be used to post a new row into your database. This same form can be used to Update a row later (but plan for that when you get there)
+2. In your VITE app create a form that can be used to post a new row into your database. 
+   - This same form can be used to Update a row later (but plan for that when you get there)
 3. Create a way of deleting a row from your DB.
 4. BURN IT DOWN AND DO IT ALL AGAIN INCLUDING THE STRETCH GOALS.
 5. Create more tables, and seed them.
