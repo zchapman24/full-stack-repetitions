@@ -2,7 +2,8 @@
 > One day full stack application, styling optional.
 
 ## Table of Contents
-### Checkpoints
+### Checkpoints for Reference
+- [CHECKPOINT 0](#where-to-start)
 - [CHECKPOINT 1](#checkpoint-1)
 - [CHECKPOINT 2](#checkpoint-2)
 - [CHECKPOINT 3](#checkpoint-3)
@@ -14,12 +15,21 @@
 - [FRONT-END](#front-end-using-vite)
 - [STRETCH GOALS](#stretch-goals)
 
+---
+
+---
+
+<br>
+
 ## What is the purpose of this repository?
 The purpose of this exercise is to get repetitions creating each of the components of your full stack application. Those components being, the `Database`, the `API`, and the `Front-End`. Once you have created each component you then want to make them communicate between each other. Your `Database` holds data that your `API` accesses, using a technology such as KNEX, and hosts in a **REST**ful manner. And your `Front-End` reaches out and fetches that **REST**ful data and displays it for your end-user to enjoy.
 
 ## Where to start?
-> Start here, return here. This will be your home base to return to anytime you are so stuck you are not sure what is needed to fix something. Execute `SCORCHED EARTH` protocol and start her, from step ***0***!
-<br>
+> - Start here, return here. This will be your home base to revisit anytime you are so stuck you are not sure what is needed to fix something. Execute `SCORCHED EARTH` protocol and start her, from step ***0***! NOTE: All `SCORCHED EARTH` links lead back here.
+> - If you have not done so clone this repository to your local machine. 
+> - All of your code and directories will reside inside of this repo.
+> - If at anypoint you need to execute `SCORCHED EARTH` delete everything but the .gitignore, README.md, and .git files from your `rapid-full-stack-repo`.
+> - You will then be ready to start with a clean slate.
 <br>
 
 ### DATABASE
@@ -39,7 +49,7 @@ You should have your database set up and running. So now you will create the tab
 
 #### KNEX
 
-You should still be in the same lesson as previously mentioned. Your next step is going to be initializing `KNEX` so that you can use its tool to create migration files and seed files. So run the provided KNEX initialization command, followed by the next steps needed to ensure KNEX connects to your POSTGRES database properly.
+You should still be in the same lesson as previously mentioned. Your next step is going to be initializing `KNEX` so that you can use its tool to create migration and seed files. So run the provided KNEX initialization command, followed by the next steps needed to ensure KNEX connects to your POSTGRES database properly.
 
 You will now need to head over to the *Database Migrations with Knex* lesson and follow the steps provided to create a migration file. **Reminder: your database is named movies.** Once you have created your migration file open it and take the necessary steps to create a table named `favorites` with the following columns: **[id, title, main_character, year_released]**. Do not forget to create your rollback function! Once you are confident in your migration file, run your migrate command (found in the same lesson).
 
@@ -47,7 +57,7 @@ Time to create your seed file. Move on to the next lesson in Learn *Seeding a Da
 
 ## CHECKPOINT 1
 > - Note: There will be multiple checkpoints throughout the instructions.
-> - If you have made it here and are not real sure how you did it, this is a great spot to take a breath, and go `SCORCHED EARTH`. Tear it all down, [WHERE TO START](#where-to-start) and follow the above steps once more ensuring you are comfortable executing them.
+> - If you have made it here and are not real sure how you did it, this is a great spot to take a breath, and go [SCORCHED EARTH](#where-to-start). Tear it all down, [WHERE TO START](#where-to-start) and follow the above steps once more ensuring you are comfortable executing them.
 > - If you are comfortable with these steps so far, then proceed to the next section, where you will setup your `ExpressJS API`.
 
 ---
@@ -58,11 +68,13 @@ Time to create your seed file. Move on to the next lesson in Learn *Seeding a Da
 ### ExpressJS API
 Congrats on making it this far. Your goal is to create your `API` that will initially house two endpoints (`/` and `/movies`) in your index.js file. `/` is your home endpoint, you want to let the end-user know they have reached your API, but there is no data for them here. `/movies` is the endpoint that provides the data retained in your `favorites` table, in **JSON** format. Head over to the Learn lesson *Using Knex with Express*. You will find in that lesson a solid starting point for your index.js file. Use it as a reference for creating your first 2 endpoints. One addition you can make right away is to add the use of cors, which you installed earlier. Import cors (using the same import syntax already in the example), and add the line `app.use(cors())` and you should now be good to go avoiding `cors` issues.
 
-You should now be able to run your start command, spinning up your `API`. Once it is up and running, open a browser and visit each endpoint. `localhost:3000` should provide the message mentioned earlier, and `localhost:3000/movies` should provide a *JSONified* version of your data.
+You should now be able to run your start command, spinning up your `API`. Once it is up and running, open a browser and visit each endpoint. 
+>`localhost:8000` should provide the message mentioned earlier <BR>
+>`localhost:8000/movies` should provide a *JSONified* version of your data.
 
 ## CHECKPOINT 2
 > - If you finished the previous section and are still struggling with some of it, roll back to [CHECKPOINT 1](#checkpoint-1). To do this, delete everything inside of your index.js and follow the **ExpressJS API** section, as many times as you need to.
-> - If you want to solidify your knowledge so far, or just want to try it again, go for it. Go the `SCORCHED EARTH` route. Drop your database from inside Postgres, stop your docker container, shut down your API, and delete everything inside of your `rapid-full-stack-repo` directory, aside from this readme. But do not delete the directory itself, unless... you want to practice cloning it down again.
+> - If you want to solidify your knowledge so far, or just want to try it again, go for it. Go the [SCORCHED EARTH](#where-to-start) route. Drop your database from inside Postgres, stop your docker container, shut down your API, and delete everything inside of your `rapid-full-stack-repo` directory, aside from this readme. But do not delete the directory itself, unless... you want to practice cloning it down again.
 > - Next you will be creating the Front-End, so make sure your API and database are up and running.
 
 ---
@@ -84,7 +96,7 @@ If you do not remember the steps required to leverage node package manager in or
 
 ## CHECKPOINT 3
 > - If you are not comfortable with the initial steps of creating a VITE app, delete the directory that was created above (this should just be your Front-End vite directory), jump back to [CHECKPOINT 2](#checkpoint-2).
-> - As always `SCORCHED EARTH` is always an option to give yourself the chance to solidify what you do and do not fully understand.
+> - As always [SCORCHED EARTH](#where-to-start) is always an option to give yourself the chance to solidify what you do and do not fully understand.
 ---
 <br>
 <br>
@@ -131,4 +143,4 @@ ONLY VISIT HERE ONCE YOU ARE COMFORTABLE WITH THE ABOVE. NOT WHEN YOU HAVE IT ME
 <br>
 
 # THE END
-### If you made it here great job. But this doesn't necessarily mean your journey is over. Go `SCORCHED EARTH` one more time and try it again all the way back at [WHERE TO START](#where-to-start). `REPETITION` is the key to success. Creating that connection from your brain to your fingers. Feel free to hold onto this repo for the rest of time and occasionally see if you can still execute the steps as fast as you used to, or even more likely faster than last time.
+### If you made it here great job. But this doesn't necessarily mean your journey is over. Go [SCORCHED EARTH](#where-to-start) one more time and try it again all the way back at [WHERE TO START](#where-to-start). `REPETITION` is the key to success. Creating that connection from your brain to your fingers. Feel free to hold onto this repo for the rest of time and occasionally see if you can still execute the steps as fast as you used to, or even more likely faster than last time.
