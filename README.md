@@ -2,6 +2,12 @@
 > One day full stack application, styling optional.
 
 ## Table of Contents
+### Components
+- [DATABASE](#database)
+- [API](#api)
+- [FRONT-END](#front-end-using-vite)
+- [STRETCH GOALS](#stretch-goals)
+
 ### Checkpoints for Reference
 - [CHECKPOINT 0](#where-to-start)
 - [CHECKPOINT 1](#checkpoint-1)
@@ -9,11 +15,6 @@
 - [CHECKPOINT 3](#checkpoint-3)
 - [CHECKPOINT 4](#checkpoint-4)
 
-### Components
-- [DATABASE](#database)
-- [API](#api)
-- [FRONT-END](#front-end-using-vite)
-- [STRETCH GOALS](#stretch-goals)
 
 ---
 
@@ -25,7 +26,8 @@
 The purpose of this exercise is to get repetitions creating each of the components of your full stack application. Those components being, the `Database`, the `API`, and the `Front-End`. Once you have created each component you then want to make them communicate between each other. Your `Database` holds data that your `API` accesses, using a technology such as KNEX, and hosts in a **REST**ful manner. And your `Front-End` reaches out and fetches that **REST**ful data and displays it for your end-user to enjoy.
 
 ## Where to start?
-> - Start here, return here. This will be your home base to revisit anytime you are so stuck you are not sure what is needed to fix something. Execute `SCORCHED EARTH` protocol and start her, from step ***0***! NOTE: All `SCORCHED EARTH` links lead back here.
+> - Start here, return here. This will be your home base to revisit anytime you are so stuck you are not sure what is needed to fix something. Execute `SCORCHED EARTH` protocol and start her, from step ***0***! 
+>     - NOTE: All `SCORCHED EARTH` links lead back here.
 > - If you have not done so clone this repository to your local machine. 
 > - All of your code and directories will reside inside of this repo.
 > - If at anypoint you need to execute `SCORCHED EARTH` delete everything but the .gitignore, README.md, and .git files from your `rapid-full-stack-repo`.
