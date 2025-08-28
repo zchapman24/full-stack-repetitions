@@ -23,13 +23,17 @@ The purpose of this exercise is to get repetitions creating each of the componen
 <br>
 
 ### DATABASE
+
 ---
+
 The quickest win you can get in this process is spinning up POSTGRES in docker. You should already have done this multiple times in class. The first step in getting your database up and running is that long command provided to you in the **Connecting to PostgreSQL** lesson. Once you run that command successfully, follow the next steps in that same lesson to connect to your POSTGRES container. **Hint: there are two commands you have to run and then you should see your command line displaying something like `postgres=#`.** The last thing you need to do to get your database running is to create the database you are going to be using. In this case you need to create a database called `movies`. Why movies? Because you are going to create a database that holds your top 3 favorite movies. You will be creating the migration and seed files once you get to the `API`. Remember the database, is only a part of your Back-End, your `API` being another component of it.
 <br>
 <br>
 
 ### API
+
 ---
+
 #### Initialize
 You should have your database set up and running. So now you will create the tables using migration files, and then seed the table you just created using a seed file. Each of which leverages KNEX. Return to your Learn content, only this time navigate over to the *Connecting to a Database Server with Knex* lesson. Follow the steps provided to initialize your `package.json`, followed by installing the following packages, [knex, express, pg, cors, nodemon]. There are other files you can install of course, but these create a perfect foundation for your `API`. Once that process has completed open your package.json file and add a start script. Your start script should utilize your index.js file, and can either leverage `node` or `nodemon`. Note:  `nodemon` watches for changes and restarts node as necessary, allowing you to not need to shutdown and spin up node repeatedly.
 
@@ -45,7 +49,9 @@ Time to create your seed file. Move on to the next lesson in Learn *Seeding a Da
 > - Note: There will be multiple checkpoints throughout the instructions.
 > - If you have made it here and are not real sure how you did it, this is a great spot to take a breath, and go `SCORCHED EARTH`. Tear it all down, [WHERE TO START](#where-to-start) and follow the above steps once more ensuring you are comfortable executing them.
 > - If you are comfortable with these steps so far, then proceed to the next section, where you will setup your `ExpressJS API`.
+
 ---
+
 <br>
 <br>
 
@@ -58,11 +64,15 @@ You should now be able to run your start command, spinning up your `API`. Once i
 > - If you finished the previous section and are still struggling with some of it, roll back to [CHECKPOINT 1](#checkpoint-1). To do this, delete everything inside of your index.js and follow the **ExpressJS API** section, as many times as you need to.
 > - If you want to solidify your knowledge so far, or just want to try it again, go for it. Go the `SCORCHED EARTH` route. Drop your database from inside Postgres, stop your docker container, shut down your API, and delete everything inside of your `rapid-full-stack-repo` directory, aside from this readme. But do not delete the directory itself, unless... you want to practice cloning it down again.
 > - Next you will be creating the Front-End, so make sure your API and database are up and running.
+
 ---
+
 <br>
 
 ### Front-End using VITE
+
 ---
+
 You are in your final stretch. You have now successfully spun up a database, and hosted the data in a RESTful API. Now you need to create an application to display that data.
 
 You may be wondering why you were instructed to set up the `Back-End` first. Well, this is because once the data is ready and hosted, you do not need to make any changes to your `Back-End` until you decide to add the rest of your `CRUD` functionality (create, update, delete). You can just focus on setting up a successful fetch to the `/movies` endpoint, followed by a basic display of that data.
@@ -86,7 +96,9 @@ The final step required for you to have successfully created a rapid full stack 
 
 ## CHECKPOINT 4
 > - Here is another great point to roll back to [CHECKPOINT 3](#checkpoint-3) in order to get more repetitions in. Empty your APP.jsx file and walk through the *Clean Slate* section once more.
+
 ---
+
 <br>
 
 ## Congrats
@@ -94,6 +106,7 @@ The final step required for you to have successfully created a rapid full stack 
 Congratulations you did it. You created a full stack application, you should be proud of your progress. Your next step is to tear it all down jump back to [WHERE TO START](#where-to-start), rinse and repeat. Each time trying to do it a little quicker and with a little less guidance each time. Do not worry about memorizing syntax, instead remembering where to find the needed syntax, or the next set of steps. Progressing little by little, until you are creating full stack applications in your sleep.
 
 ---
+
 <br>
 <br>
 
